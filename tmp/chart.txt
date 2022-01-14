@@ -1,0 +1,66 @@
+https://live.amcharts.com/new/edit/
+{
+	"type": "serial",
+	"categoryField": "category",
+	"autoMarginOffset": 40,
+	"marginRight": 70,
+	"marginTop": 70,
+	"startDuration": 1,
+	"fontSize": 13,
+	"theme": "light",
+	"categoryAxis": {
+		"gridPosition": "start",
+		"title": "Languages",
+		"titleFontSize": 20
+	},
+	"trendLines": [],
+	"graphs": [
+		{
+			"balloonText": "[[title]] of [[category]]",
+			"color": "undefined",
+			"fillAlphas": 0.9,
+			"id": "AmGraph-1",
+			"title": "Time",
+			"type": "column",
+			"valueField": "column-1"
+		}
+	],
+	"guides": [],
+	"valueAxes": [
+		{
+			"id": "ValueAxis-1",
+			"title": "Execution Time (Second)",
+			"titleFontSize": 20
+		}
+	],
+	"allLabels": [],
+	"balloon": {},
+	"titles": [
+		{
+			"id": "Title-1",
+			"text": "Prime Counter in 250000 Numbers"
+		}
+	],
+	"dataProvider": [
+		{
+			"category": "C (6.648s)",
+			"column-1": "6.648"
+		},
+		{
+			"category": "go (15.802s)",
+			"column-1": "15.802"
+		},
+		{
+			"category": "Rust (92.153s)",
+			"column-1": "92.153"
+		},
+		{
+			"category": "Python (109.135s)",
+			"column-1": "109.135"
+		},
+		{
+			"category": "Js/Node.js (9.892s)",
+			"column-1": "9.892"
+		}
+	]
+}
