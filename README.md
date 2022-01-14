@@ -64,7 +64,6 @@ $ time ./target/debug/prime_counter.exe
     2)go build prime_counter.go;
 ```sh
 $ time ./prime_counter.exe
-$ time ./prime_counter.exe
 # 22044
 
 # real    0m15.802s
