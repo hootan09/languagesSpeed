@@ -60,7 +60,7 @@ $ time ./target/debug/prime_counter.exe
 
 #### go version go1.17.6 windows/amd64
 ###### command: 
-    1)cargo run prime_counter.go; 
+    1)go run prime_counter.go; 
     2)go build prime_counter.go;
 ```sh
 $ time ./prime_counter.exe
