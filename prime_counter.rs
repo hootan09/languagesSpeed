@@ -11,21 +11,17 @@ fn is_prime(n: i32) -> bool
 }
 fn main()
 {
-    loop
-    {
-        let r: i32 = 250000;
+    let r: i32 = 250000;
 
-        let mut y: i32 = 0;
-        for x in 2..=r
+    let mut y: i32 = 0;
+    for x in 2..=r
+    {
+        if is_prime(x) == true
         {
-            if is_prime(x) == true
-            {
-                y = y + 1;
-            }
+            y = y + 1;
         }
-        println!("{}",y);
-        break;
     }
+    println!("{}",y);
 }
 
 /*
