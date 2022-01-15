@@ -2,8 +2,7 @@ fn is_prime(n: i32) -> bool
 {
     for i in 2..n
     {
-        let p = n % i;
-        if p == 0
+        if n % i == 0
         {
             return false;
         }

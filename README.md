@@ -35,7 +35,7 @@ $ time python prime_counter.py
 ###### command: 
     1)cargo new; 
     2)copy code to main.rs
-    3)cargo build;
+    3)cargo build --release;
 ```sh
 $ rustc --version
 # rustc 1.58.0 (02072b482 2022-01-11)
@@ -43,9 +43,9 @@ $ rustc --version
 $ time ./target/debug/prime_counter.exe
 # 22044
 
-# real    1m32.153s
-# user    0m0.000s
-# sys     0m0.031s
+# real    0m13.377s
+# user    0m0.015s
+# sys     0m0.046s
 ```
 
 #### Node.js v14.15.4
@@ -72,5 +72,5 @@ $ time ./prime_counter.exe
 ```
 
 <p float="center">
-<img src="./tmp/lang.png" width="100%" height="100%" alt="languages chart">
+<img src="./tmp/lang2.png" width="100%" height="100%" alt="languages chart">
 </p>

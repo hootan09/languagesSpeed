@@ -51,8 +51,8 @@ https://live.amcharts.com/new/edit/
 			"column-1": "15.802"
 		},
 		{
-			"category": "Rust (92.153s)",
-			"column-1": "92.153"
+			"category": "Rust (13.377)",
+			"column-1": "13.377"
 		},
 		{
 			"category": "Python (109.135s)",
