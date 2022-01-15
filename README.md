@@ -43,8 +43,8 @@ $ rustc --version
 $ time ./target/debug/prime_counter.exe
 # 22044
 
-# real    0m13.377s
-# user    0m0.015s
+# real    0m7.028s
+# user    0m0.000s
 # sys     0m0.046s
 ```
 
@@ -72,5 +72,5 @@ $ time ./prime_counter.exe
 ```
 
 <p float="center">
-<img src="./tmp/lang2.png" width="100%" height="100%" alt="languages chart">
+<img src="./tmp/lang3.png" width="100%" height="100%" alt="languages chart">
 </p>

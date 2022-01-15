@@ -1,6 +1,6 @@
 fn is_prime(n: i32) -> bool
 {
-    for i in 2..n
+    for i in 2..=n/2
     {
         if n % i == 0
         {
@@ -13,7 +13,7 @@ fn main()
 {
     loop
     {
-        let r: i32 = 250001;
+        let r: i32 = 250000;
 
         let mut y: i32 = 0;
         for x in 2..=r
@@ -32,7 +32,7 @@ fn main()
 $ time ./target/debug/prime_counter.exe
 22044
 
-real    0m13.377s
-user    0m0.015s
+real    0m7.028s
+user    0m0.000s
 sys     0m0.046s
 */
